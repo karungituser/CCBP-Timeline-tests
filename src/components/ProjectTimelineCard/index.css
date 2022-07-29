@@ -1,0 +1,54 @@
+.project-card-container {
+  border-radius: 7px;
+  padding: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.image-url {
+  width: 100%;
+}
+.project-title {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #171f46;
+}
+.cal-icon {
+  width: 25px;
+  height: 25px;
+  color: #171f46;
+}
+.duration {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #171f46;
+  font-weight: 600;
+}
+.visit {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0967d2;
+}
+.project-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+}
+.project-duration-container {
+  display: flex;
+  flex-direction: column;
+}
+.duration-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .project-duration-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
